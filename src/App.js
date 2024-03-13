@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-      <h1 className="text-center text-white my-3 mb-4 text-base leading-none tracking-tight text-gray-900 md:text-3xl lg:text-6xl dark:text-white">Enter a <span className="text-blue-600 dark:text-blue-500">Todo</span></h1>
+      <h1 className="text-center text-white my-3 mb-4 text-5xl leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white">Enter a <span className="text-blue-600 dark:text-blue-500">Todo</span></h1>
           
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">   
             <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
@@ -38,7 +38,7 @@ function App() {
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5v10M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm12 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0V6a3 3 0 0 0-3-3H9m1.5-2-2 2 2 2"/>
                 </svg>
                 </div>
-                <input type="search" id="default-search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter a Todo"
+                <input type="search" id="default-search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Add a Task"
                   onChange={(e)=>{
                   setTodo(e.currentTarget.value);
                   }}
