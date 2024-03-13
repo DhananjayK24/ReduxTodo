@@ -48,7 +48,7 @@ function App() {
             </div>
         </form>
 
-        <ul className='flex flex-col gap-2 items-start mx-auto max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400'>
+        <ul className='flex flex-col gap-2 items-start pl-3.5 mx-auto max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400'>
 
           {todos.map((t)=>(
             
